@@ -2,41 +2,61 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=content-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>RealMadrid.ua</title>
-  <link rel="shortcut icon" type="x-icon/css" href="icon1.png">
+  <link rel="shortcut icon" type="x-icon/css" href="img/icon1.png">
   <link rel="stylesheet" type="text/css" href="RealMadrid.css" media="all">
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 
-<body style="background-color: #D3D3D3; overflow: scroll">
+<body class=" body1 body1-collapse">
+ <header>
+   <nav class="navbar navbar-collapse fixed-top navbar-expand-lg navbar-light">
+    <a href="RealMadrid.html" class="navbar-brand">
+      <img src="img/icon1.png" alt="logo" width="40px">
+    </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-<header>
-<h1 class="HN"><b>Останні новини</b></h1>
-</header>
-
-  <nav>
-  <ul>
-  <li><a class="active" href="RealMadrid.html">Клуб</a></li>
- <li><a class="active" href="">Матчі</a>
-      <ul>
-      <a href="Calendar.html">Календар</a>
-      <a href="#last_game">Останній матч</a>
-      <a href="#raitings">Турнірна таблиця</a>
-    </ul>
-  <li><a class="active" href="news.html">Новини</a></li>
-  <li><a class="active" href="#fans">Фани</a></li>
-  <li><a class="active" href="#contacts">Контакти</a></li>
-  <li><a class="active" href="#admin">Керування</a></li>
-  <li style="float:right; margin-top: 1%">
- <class="logo" href="RealMadrid.html"><img class="logo" style="margin-right: 30px;margin-top: -10px" src="img/icon1.png" width="40px"></li>
+    <div class="navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a href="RealMadrid.html" class="nav-link">Клуб</a>
+        </li>
+                  <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Матчі</a>
+            <div style="background-color:#FFD700" class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                <a class="dropdown-item" href="plan.html">Календар</a>
+                <a class="dropdown-item" href="#">Наступна гра</a>
+                <a class="dropdown-item" href="#">Рейтинг</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a href="news.html" class="nav-link">Новини</a>
+        </li>
+        <li class="nav-item">
+          <a href="fans.html" class="nav-link">Фани</a>
+        </li>
+                <li class="nav-item">
+          <a href="info.html" class="nav-link">Контакти</a>
+        </li>
+                <li class="nav-item">
+          <a href="admin.html" class="nav-link">Керування</a>
+        </li>
+      </ul>
     </div>
-  </li>
-</ul>
-</nav>
+  </nav> 
+</header>
+<h1 align="center" class="HN"><b>Останні новини</b></h1>
 
-<article class="news1">
-		<h2 class="news_1">Атлетік – Реал 1:1</h2>
-	<img style="margin-left:40px" src="img/atlReal.jpg" alt="Atletic vs Rel" width="320px" height="140px">
+
+
+<article class="news1 news1-collapse">
+		<h2 class="news_1 news_1-collapse">Атлетік – Реал 1:1</h2>
+	<img class="img img-collapse" style="margin-left: 8%" src="img/atlReal.jpg" alt="Atletic vs Rel" width="80%" height="140px">
 	<p style="font-family: Georgia;margin:10px">
 Мадридський Реал втратив очки у виїзному матчі 4-го туру Ла Ліги проти Атлетіка з Більбао.
 Підопічні Хулена Лопетегі втратили очки на Сан Мамесі. Реал першим пропустив – у першому таймі з передачі Вільямс вдалося відзначитися Муньяїну.
@@ -48,9 +68,9 @@
 </p>
 </article>
 
-<article class="news2">
-		<h2 class="news_2">Реал знайшов заміну Роналду в Ювентусі за 180 млн євро</h2>
-	<img style="margin-left: 40px" src="img/news2.jpg" alt="Dybalo" width="320px" height="140px">
+<article class="news2 news2-collapse">
+		<h2 class="news_2 news_2-collapse">Реал знайшов заміну Роналду в Ювентусі за 180 млн євро</h2>
+	<img class="img img-collapse" style="margin-left: 8%" src="img/news2.jpg" alt="Dybalo" width="80%" height="140px">
 	<p style="font-family: Georgia;margin:10px">
 Мадридський "Реал" перед закриттям трансферного вікна 31 серпня може посилитися нападаючим "Ювентуса" Пауло Дібалою. У ньому "королівський клуб" бачить заміну Кріштіану Роналду, який перейшов якраз в італійський клуб .
 <br>
@@ -58,9 +78,9 @@
 </p>
 </article> 
 
-<article class="news3">
-		<h2 class="news_3">Реал заборонив грати футболісту збірної України</h2>
-	<img style="margin-left: 40px" src="img/lun.jpg" alt="Lunin" width="320px" height="140px">
+<article class="news3 news3-collapse">
+		<h2 class="news_3 news_3-collapse">Реал заборонив грати футболісту збірної України</h2>
+	<img class="img img-collapse" style="margin-left: 9%" src="img/lun.jpg" alt="Lunin" width="80%" height="140px">
 	<p style="font-family: Georgia;margin:10px">
 Воротар збірної України Андрій Лунін не зможе дебютувати в чемпіонаті Іспанії з футболу найближчими вихідними. Наш співвітчизник став заручником угоди між мадридським "Реалом" і "Леганесом".
 <br>
@@ -68,9 +88,9 @@
 </p>
 </article> 
 
-<article class="news4">
-		<h2 class="news_4">Зірка "Реала" отримав тюремний термін.</h2>
-	<img style="margin-left: 120px" src="img/marcelo.jpg" alt="Lunin" width="840px" height="300px">
+<article class="news4 news4-collapse">
+		<h2 class="news_4 news_4-collapse">Зірка "Реала" отримав тюремний термін.</h2>
+	<img class="img img-collapse" style="margin-left: 9%" src="img/marcelo.jpg" alt="Lunin" width="80%" height="300px">
 	<p style="font-family: Georgia;margin:10px">
 Зірка мадридського "Реала", бразилець Марсело отримав чотири місяці в'язниці за ухилення від сплати податків в Іспанії.
 <br>
@@ -80,9 +100,14 @@
 </p>
 </article> 
 
+  <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 <br>
 <footer>
-<img src="img/end.png" alt="RealMadrid" width="1350" height="300">
+<img class="foot-collapse" src="img/end.png" alt="RealMadrid" width="100%" height="300">
 </footer>
 </html>

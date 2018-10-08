@@ -1,63 +1,51 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" type="text/css" href="RealMadrid.css" media="all">
+  <title>RealMadrid.ua</title>
+  <link rel="shortcut icon" type="x-icon/css" href="img/icon1.png">
+  <link rel="stylesheet" type="text/css" href="RealMadrid.css" media="all">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="shortcut icon" type="x-icon/css" href="img/icon1.png">
-    <title>RealMadrid.ua</title>
-  </head>
+</head>
 
-  <body class="body1 body1-collapse">
 
-<header>
-   <nav class="navbar navbar-collapse fixed-top navbar-expand-lg navbar-light">
-    <a href="RealMadrid.html" class="navbar-brand">
-      <img src="img/icon1.png" alt="logo" width="40px">
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <a href="#" class="navbar-brand">
+      <img src="img/icon1.png" alt="logo">
     </a>
-             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a href="RealMadrid.html" class="nav-link">Клуб</a>
-        </li>
-                  <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Матчі</a>
-            <div style="background-color:#FFD700" class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                <a class="dropdown-item" href="plan.html">Календар</a>
-                <a class="dropdown-item" href="#">Наступна гра</a>
-                <a class="dropdown-item" href="#">Рейтинг</a>
-            </div>
-          </li>
-        <li class="nav-item">
-          <a href="news.html" class="nav-link">Новини</a>
+          <a href="#" class="nav-link">Home</a>
         </li>
         <li class="nav-item">
-          <a href="fans.html" class="nav-link">Фани</a>
+          <a href="#" class="nav-link">Home1</a>
         </li>
-                <li class="nav-item">
-          <a href="info.html" class="nav-link">Контакти</a>
-        </li>
-                <li class="nav-item">
-          <a href="admin.html" class="nav-link">Керування</a>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home2</a>
         </li>
       </ul>
+
     </div>
   </nav>
 </header>
+<body style="background-color: #D3D3D3">
 
+<div class="parent1">
+    <img  src="https://img2.goodfon.ru/wallpaper/big/a/d1/real-madrid-cf-wallpaper-logo-440.jpg" width="1350px" height="450px" alt="RealMadrid">
 
-
+<header>
   <div>
- <h1 align="center" style="font-size:40px; margin-top:1px">Історія клубу</h1>
+ <h1 style="font-size:40px; margin-top:1px">Історія клубу</h1>
+ </header>
  <p align="center" style="color:; font-size:25px; font-family: Georgia" >Реал Мадрид
 
 Повна назва Real Madrid Club de Fútbol
@@ -159,8 +147,8 @@
 
 <div>
 <h1 align="center">Останні поєдинки</h1>
-<img class="img img-collapse" style="margin-left:8%" src="img/матч.png" alt="RealMadrid" width="80%">
-</div>
+<img  style="margin-left:80px" src="img/матч.png" alt="RealMadrid" width="1200px">
+
 
 
 
@@ -173,7 +161,288 @@
 
 <footer>
 <div>
-<img class="img img-collapse" src="img/end.png" alt="RealMadrid" width="100%" height="300">
+<img src="img/end.png" alt="RealMadrid" width="1350" height="300">
 </div>
 </footer>
 </html>
+
+
+
+
+
+
+.logo:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.active:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: static;
+    text-align: center;
+    color: white;
+}
+   .img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+   }
+
+   .img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+
+   .navbar {
+  overflow: auto;
+  background-color: none;
+  position: fixed;
+  top: 0;
+  width: 75%;
+  margin-left: 5%;
+}
+
+.navbar a {
+  float: left;
+  color: #4169E1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #1E90FF;
+  color: black;
+}
+
+    h1 {text-align:center; font-family: "Essays 1743"; position: relative;}
+    }
+    .fontBeautiful{
+        font-family: "Essays 1743" "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        text-shadow: 0 0 1px #667;
+    }
+
+    ul {
+
+
+    background-color: #FFD700;
+}
+
+nav {
+  width: 100%;
+  top: -100px;
+  position: fixed;
+}
+
+    nav ul ul {
+          display: none;
+          position: absolute;
+          top: 100%;
+      }
+      
+
+      nav ul li:hover > ul {
+          display:inherit;
+          color: #4169E1
+
+      }
+      
+    
+      nav ul ul li {
+          min-width:170px;
+          float:none;
+          display:list-item;
+          position: relative;
+      }
+
+      nav {
+          margin: 100px 0;
+          background-color: #none;
+      }
+      
+  
+      nav ul {
+          padding:0;
+          margin:0;
+          list-style: none;
+          position: relative;
+          }
+      
+    
+      nav ul li {
+          margin: 0px -7px 0 0;
+          display:inline-block;
+          background-color: none;
+          }
+      
+  
+      nav a {
+          display:block;
+          padding:0 10px;
+          color:#0000CD;
+          font-size:20px;
+          line-height: 60px;
+          text-decoration:none;
+      }
+      
+     
+      nav a:hover {
+          background-color:#87CEEB;
+    }
+
+          nav a:hover {
+          background-color:none;
+    }
+
+h1.HN{
+  margin-top: 70px;
+  background-color: #EEE5DE;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  animation-duration: 2.5s;
+  animation-name: slidein;
+}
+
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%; 
+    }
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+
+
+    article.news1{
+      border:3px solid #FFD700;
+      margin-left:30px;
+      margin-top: 50px;
+      background-color: #ADD8E6;
+      float: left;
+      width: 30%;
+    }
+
+.news1:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+ 
+    h2.news_1{
+   text-align: center;
+    }
+
+ article.news2{
+      border:3px solid #FFD700;
+      margin-left:30px;
+      margin-top: 50px;
+      background-color: #ADD8E6;
+      float: left;
+      width: 30%;
+    }
+
+.news2:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+    h2.news_2{
+      text-align: center;
+    }
+
+     article.news3{
+      border:3px solid #FFD700;
+      margin-left:30px;
+      margin-top: 50px;
+      background-color: #ADD8E6;
+      float: left;
+      width: 30%;
+    }
+
+.news3:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+    h2.news_3{
+      text-align: center;
+    }
+
+         article.news4{
+      border:3px solid #FFD700;
+      margin-left:120px;
+      margin-top: 50px;
+      background-color: #ADD8E6;
+      float: left;
+      width: 80%;
+    }
+
+.news4:hover {
+   box-shadow:
+    1px 1px #C6E2FF,
+    2px 2px #C6E2FF,
+    3px 3px #C6E2FF,
+    4px 4px #C6E2FF,
+    5px 5px #C6E2FF,
+    6px 6px #C6E2FF,
+    7px 7px #C6E2FF;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+    h2.news_4{
+      text-align: center;
+    }
+
+.footer {
+    position: static;
+    left: 0;
+    background-color: none;
+    color: none;
+    text-align: left;
+}
+

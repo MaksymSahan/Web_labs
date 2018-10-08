@@ -1,142 +1,26 @@
-.logo:hover {
+.navbar-brand:hover {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
-
-.active:hover {
+.nav-item:hover{
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.body1{
+  background-color: #D3D3D3;
+  }
+.navbar{
+  position: sticky-top;
+  background-color: #FFD700;
 }
-
-.container {
-    position: static;
-    text-align: center;
-    color: white;
+.dropdown-item{
+  background-color: #FFD700;
 }
-   .img{
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-   }
-
-   .img:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.dropdown-menu a:hover{
+background-color: #1E90FF;
 }
-
-
-   .navbar {
-  overflow: auto;
-  background-color: none;
-  position: fixed;
-  top: 0;
-  width: 75%;
-  margin-left: 5%;
-}
-
-.navbar a {
-  float: left;
-  color: #4169E1;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #1E90FF;
-  color: black;
-}
-
-    h1 {text-align:center; font-family: "Essays 1743"; position: relative;}
-    }
-    .fontBeautiful{
-        font-family: "Essays 1743" "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif;
-        font-weight: normal;
-        text-transform: uppercase;
-        text-shadow: 0 0 1px #667;
-    }
-
-    ul {
-
-
-    background-color: #FFD700;
-}
-
-nav {
-  width: 100%;
-  top: -100px;
-  position: fixed;
-}
-
-    nav ul ul {
-          display: none;
-          position: absolute;
-          top: 100%;
-      }
-      
-
-      nav ul li:hover > ul {
-          display:inherit;
-          color: #4169E1
-
-      }
-      
-    
-      nav ul ul li {
-          min-width:170px;
-          float:none;
-          display:list-item;
-          position: relative;
-      }
-
-      nav {
-          margin: 100px 0;
-          background-color: #none;
-      }
-      
-  
-      nav ul {
-          padding:0;
-          margin:0;
-          list-style: none;
-          position: relative;
-          }
-      
-    
-      nav ul li {
-          margin: 0px -7px 0 0;
-          display:inline-block;
-          background-color: none;
-          }
-      
-  
-      nav a {
-          display:block;
-          padding:0 10px;
-          color:#0000CD;
-          font-size:20px;
-          line-height: 60px;
-          text-decoration:none;
-      }
-      
-     
-      nav a:hover {
-          background-color:#87CEEB;
-    }
-
-          nav a:hover {
-          background-color:none;
-    }
-
 h1.HN{
   margin-top: 70px;
   background-color: #EEE5DE;
@@ -241,7 +125,7 @@ h1.HN{
 
          article.news4{
       border:3px solid #FFD700;
-      margin-left:120px;
+      margin-left:11%;
       margin-top: 50px;
       background-color: #ADD8E6;
       float: left;
@@ -265,11 +149,7 @@ h1.HN{
       text-align: center;
     }
 
-.footer {
-    position: static;
-    left: 0;
-    background-color: none;
-    color: none;
-    text-align: left;
+.border1{
+  width: 60%;
+  margin-left: 1%;
 }
-
