@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html manifest="manifest.cache">
+<html>
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/background.css">
 
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -30,8 +29,8 @@
 					</div>
 					<a href="feedbacks.html">Feedbacks</a>
 					<a href="news.html">News</a>
-					<a href="contacts.html">Contacts</a>
-					<a class="active" href="#">Admin</a>
+					<a class="active" href="#">Contacts</a>
+					<a href="admin.html">Admin</a>
 					<a href="javascript:void(0);" class="icon" onclick="hambMenu()">
 						<i class="fa fa-bars"></i>
 					</a>
@@ -43,7 +42,6 @@
 		</div>
 	</div>
 
-
 	<div class="loading hidden">
 		<div class="loader-container">
 			<div class="loader"></div>
@@ -51,36 +49,25 @@
 	</div>
 
 	<section class="title-feedbacks">
-		<h2>Add news</h2>
+		<h2>Our contacts</h2>
 	</section>
-	<div class="col-md-3"></div>
-	<div class="container col-md-6">
-		<form>
-			<img id='clock'></img>
-			<label style="width: 100%; margin-bottom: 1%;"><input name="image" style="height: 0; width: 100%; background-color: #3A2703; border: none;" disabled="disabled"></label>
-			<div class="file-upload">
-			    <label>
-			        <input type="file" id="getval" name="file">
-			        <a><span onclick="foo()">Add image</span></a>
-			    </label>
-			</div>
-
-			<!-- <label>
-				<input type='file' id='getval' name="background-image"><span>Add image</span>
-				
-			</label> -->
-			<!-- <input type="Submit" name="Submit" value="Add image" class="submit-feedback" style="margin-bottom: 5%;"> -->
-			<label style="width: 100%;">
-			<input type="text" name="nname" alt="Submit" placeholder="News title" class="input-name">
-			</label>
-			<label style="width: 100%; margin-top: 1%;">
-				<textarea type="text" name="news" alt="Submit" placeholder="News text"></textarea>
-			</label>
-			<input type="button" onclick="validateNew(this.form)" name="Submit" 
-				value="Add news" class="submit-feedback" style="margin-bottom: 5%;">
-		</form>
+	<div class="container">
+	<div class="feedbacks-light col-md-4">
+		  <div>
+  <p style="text-align: center;"> Адреса<span>&#x261E;</span> </p>
+  <p style="text-align: center;">Avenidade Concha Espina, 128036</p>
+  <p style="text-align: center;">Телефон<span>&#x261E;</span> </p>
+  <p style="text-align: center;">(+34) 91 398 43 00</p>
+  <p style="text-align: center;">Веб-сайт<span>&#x261E;</span></p>
+  <p style="text-align: center;"> http://www.realmadrid.com</p>
+  <p style="text-align: center;">E-mail<span>&#x261E;</span></p>
+  <p style="text-align: center;"> tour@corp.realmadrid.com </p>
+  </div>
 	</div>
-	<div class="col-md-3"></div>
+	<div class="col-md-8">
+		<iframe class="maps maps-collapse maps-expand-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.042817491149!2d-3.6928476850990255!3d40.45218927936108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228e2fe54acd3%3A0x7bdf12a106fcb23e!2sSantiago+Bernab%C3%A9u!5e0!3m2!1suk!2sua!4v1538994292056" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+	</div>
+	</div>
 
 	<footer>
 		<div class="copyrights col-md-12">
